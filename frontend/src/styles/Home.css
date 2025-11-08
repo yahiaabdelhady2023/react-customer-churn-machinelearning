@@ -1,0 +1,54 @@
+.home-main-content{
+    background-color: #fffefe;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 2fr;
+    grid-template-areas: 
+    "kpi-1 kpi-2 kpi-3 kpi-4"
+    "graph-1 graph-1 graph-2 graph-2"
+    "chart-1 chart-2 chart-2 chart-3";
+    gap: .5rem;
+}
+
+.home-main-content *{
+    background-color: lightblue;
+    padding: 1rem;
+}
+
+.home-main-content-item-kpi-1 {
+  grid-area: kpi-1;
+}
+
+.home-main-content-item-kpi-2 {
+  grid-area: kpi-2;
+}
+
+.home-main-content-item-kpi-3 {
+  grid-area: kpi-3;
+}
+
+.home-main-content-item-kpi-4 {
+  grid-area: kpi-4;
+}
+
+.home-main-content-item-graph-1 {
+  grid-area: graph-1;
+}
+
+.home-main-content-item-graph-2 {
+  grid-area: graph-2;
+}
+
+.home-main-content-item-chart-1 {
+  grid-area: chart-1;
+}
+
+.home-main-content-item-chart-2 {
+  grid-area: chart-2;
+}
+
+.home-main-content-item-chart-3 {
+  grid-area: chart-3;
+}
