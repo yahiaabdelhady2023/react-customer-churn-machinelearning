@@ -1,0 +1,14 @@
+.chart{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.chart-title{
+    background-color: rgb(227, 226, 226);
+    border-radius: 1.2rem;
+    text-align: center;
+}

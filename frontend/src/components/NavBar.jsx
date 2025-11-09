@@ -10,7 +10,7 @@ function NavBar() {
   return (
     <div className="navbar">
       {nav_items.map((item) => (
-        <NavItem item={item} />
+        <NavItem item={item} key={item.id}/>
       ))}
     </div>
   );

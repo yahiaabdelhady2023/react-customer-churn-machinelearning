@@ -6,7 +6,7 @@ import "../styles/PageLayOut.css"
 
 function PageLayOut({ children  }){
     return (
-        <div class="page-layout">
+        <div className="page-layout">
             <nav><NavBar/></nav>
             <main>{children}</main>
             <footer><MainFooter/></footer>
